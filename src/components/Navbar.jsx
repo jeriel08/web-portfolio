@@ -12,11 +12,11 @@ export default function Navbar() {
   ];
   return (
     <header
-      className="fixed top-0 left-0 w-full z-20 text-white"
-      data-aos="fade-up"
+      className="fixed top-0 left-0 w-full z-20 text-white backdrop-blur-md bg-white/10 border-b border-white/20 shadow-lg"
+      data-aos="fade-down"
       data-aos-delay="300"
     >
-      <div className="container mx-auto flex items-center justify-between py-5 px-10 sm:px-5 md:px-5">
+      <div className="container mx-auto flex items-center justify-between py-3   px-10 sm:px-5 md:px-5">
         {/* Logo */}
         <a href="#home" className="text-4xl font-extrabold text-white">
           Jeriel<span className="text-purple-400">Dev</span>

@@ -48,7 +48,7 @@ export default function Skill() {
       <div
         data-aos="fade-up"
         data-aos-delay="300"
-        className="relative z-20 text-center space-y-6 sm:space-y-10"
+        className="relative z-2 text-center space-y-6 sm:space-y-10"
       >
         <header>
           <h1 className="text-3xl sm:text-4xl font-bold ">
