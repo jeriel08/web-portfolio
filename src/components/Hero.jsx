@@ -76,11 +76,15 @@ export default function Hero() {
           data-aos-delay="500"
           className="flex-1 flex justify-center md:justify-end mt-0"
         >
-          <img
-            src={hero}
-            alt="Hero Image"
-            className="h-[300px] sm:h-[400px] md:h-[485px] w-[250px] sm:w-[480px] object-cover rounded-full"
-          />
+          <div className="relative rounded-full p-[8px] bg-gradient-to-r from-[#6d2897] via-[#8e6cf5] to-[#bb61c5] animate-border-rotate">
+            <div className="rounded-full bg-[#1a0521] p-[4px]">
+              <img
+                src={hero}
+                alt="Hero Image"
+                className="h-[300px] sm:h-[400px] md:h-[485px] w-[250px] sm:w-[480px] object-cover rounded-full"
+              />
+            </div>
+          </div>
         </figure>
       </main>
     </div>

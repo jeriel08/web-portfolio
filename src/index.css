@@ -4,3 +4,27 @@
 * {
   font-family: "Roboto", sans-serif;
 }
+
+@keyframes border-rotate {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 400% 50%;
+  }
+}
+
+.animate-border-rotate {
+  background: linear-gradient(
+    90deg,
+    #ff0000,
+    #ff9900,
+    #33cc33,
+    #3399ff,
+    #cc33cc,
+    #ff0000
+  );
+  background-size: 400% 400%;
+  animation: border-rotate 6s linear infinite;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
